@@ -11,6 +11,8 @@ body{
 }
 
 
+
+
 /* -----------Navigation-------------- */
 
 .container-navigation{
@@ -231,3 +233,29 @@ h1{
 }
 
 
+/* ----------- Section Lieu ----------------- */
+
+#choix{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+}
+
+.lieux{
+  width: 40%;
+  text-align: center;
+  margin: 50px 20px 70px;
+}
+
+.lieux h3{
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.lieux p{
+  font-size: 18px;
+  width: 70%;
+  margin: 0 auto 30px;
+}
