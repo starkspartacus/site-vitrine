@@ -81,5 +81,9 @@ nav a{
 }
 
 .bloc-acceuil-left{
-  
+  position: relative;
+  width: 40%;
+  height: 100%;
+  background: #000;
+  box-shadow: 90px 0 100px 100px #000;
 }
