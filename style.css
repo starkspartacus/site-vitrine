@@ -242,6 +242,20 @@ h1{
   background: #f1f1f1;
 }
 
+#img-choix1{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-items: center;
+}
+
+#img-choix1:hover{
+  transition: all 0.2s ease-out;
+  width: 90px;
+  height: 90px;
+}
+
 .lieux{
   width: 40%;
   text-align: center;
@@ -249,9 +263,12 @@ h1{
 }
 
 .lieux h3{
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 20px;
   font-family: Montserrat, Helvetica, sans-serif;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  color: rgb(180, 61, 81);
 }
 
 .lieux p{
@@ -259,3 +276,21 @@ h1{
   width: 70%;
   margin: 0 auto 30px;
 }
+
+.btn-outline-choix{
+  width: 280px;
+  padding: 12px 0;
+  background: #f1f1f1;
+  color: rgb(180, 61, 81);
+  border: solid 1px rgb(180, 61, 81);
+  border-radius: 15px;
+  font-weight: bold;
+  
+}
+/* ---Animation Button */
+.btn-outline-choix:hover{
+  transition: all 0.2s ease-in-out;
+  background: rgb(180, 61, 81);
+  color: #f1f1f1;
+}
+/* ---Fin Animation Button */
