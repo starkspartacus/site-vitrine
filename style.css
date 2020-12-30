@@ -167,7 +167,7 @@ h1{
   }
 }
 
-@media screen and (max-width: 742px){
+@media screen and (max-width: 902px){
   h1{
     font-size: 50px;
     margin-left: 4vw;
@@ -185,6 +185,48 @@ h1{
   .bloc-acceuil-right{
     background-image: url(images/sans-abri-3.jpeg);
     background-position: 90px 0;
+  }
+}
+
+@media screen and (max-width: 492px){
+  .acceuil{
+    height: 500px;
+  }
+  h1{
+    font-size: 25px;
+    margin-left: 2vw;
+  }
+
+  .acceuil p{
+    font-size: 12px;
+    margin-left: 2vw;
+  }
+
+  .btn-acceuil{
+    font-size: 10px;
+    margin-left: 2vw;
+  }
+
+  .bloc-acceuil-left{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 144px){
+  h1{
+    font-size: 14px;
+  }
+  .acceuil p{
+    font-size: 11px;
+  }
+
+  .btn-acceuil{
+    font-size: 7px;
+  }
+
+  nav{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
