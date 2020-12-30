@@ -152,8 +152,40 @@ h1{
   width: 60%;
   height: 100%;
   background-repeat:round;
-  background-position: 0 50px;
+  background-position: 10px 50px;
 }
 
+/* Media Acceuil */
+
+@media screen and (max-width: 1350px){
+  .bloc-acceuil-left{
+    width: 60%;
+  }
+
+  .bloc-acceuil-right{
+    background-position: 72% 10%;
+  }
+}
+
+@media screen and (max-width: 742px){
+  h1{
+    font-size: 50px;
+    margin-left: 4vw;
+  }
+
+  .acceuil p{
+    font-size: 18px;
+    margin-left: 4vw;
+  }
+
+  .btn-acceuil{
+    padding: 5px;
+  }
+
+  .bloc-acceuil-right{
+    background-image: url(images/sans-abri-3.jpeg);
+    background-position: 90px 0;
+  }
+}
 
 
