@@ -240,6 +240,7 @@ h1{
   justify-content: center;
   align-items: center;
   background: #f1f1f1;
+  width: 100%;
 }
 
 #img-choix1{
@@ -298,7 +299,7 @@ h1{
 
 @media screen and (max-width:812px){
   #choix{
-    display: block;
+    flex-direction: column;
     
     width: 100%;
   }
@@ -309,33 +310,35 @@ h1{
   }
 }
 
-@media screen and (max-width:382px){
+@media screen and (max-width:394px){
   #choix{
-    display: block;
-    width: 100%;
+    flex-direction: column;
+    
   }
 
   .lieux h3{
     justify-content: center;
-    align-items: center;
-    white-space: nowrap;
+    white-space: wrap;
+    margin-left: 1vw;
+    font-size: 18px;
   }
 
   .lieux p{
-    margin-left: 60%;
-    
-    padding-bottom: 15%;
+    margin-left: 1vw;
+    text-align:center;
+    font-size: 15px;
   }
 
   .lieux img{
-    margin-left: 70%;
+    margin-left: 1vw;
   }
 
   .btn-outline-choix{
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: auto;
     font-size: 12px;
-    margin-left: 60%;
+    margin-left: 1vw;
+
   }
 }
 
