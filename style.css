@@ -425,8 +425,31 @@ h1{
   margin: 18px 10px;
 }
 
-.second-contain .reseau:hover{
-  
+.second-contain .facebook:hover{
+  transition: all 0.2s ease-in-out;
+  color:blue;
+  font-size: 35px;
 }
+
+.second-contain .youtube:hover{
+  transition: all 0.2s ease-in-out;
+  color:red;
+  font-size: 35px;
+}
+
+.second-contain .twitter:hover{
+  transition: all 0.2s ease-in-out;
+  color: lightblue;
+  font-size: 35px;
+}
+
+.second-contain .instagram:hover{
+  transition: all 0.2s ease-in-out;
+  color: lightcoral;
+  font-size: 35px;
+}
+
+
+
 
 
