@@ -354,7 +354,7 @@ h1{
 
 .first-contain{
   display: flex;
-  width: 30%;
+  width: 50%;
   margin-left: 2vw;
   
   
@@ -376,20 +376,57 @@ h1{
 
 }
 
-
-
 .first-contain li{
   list-style-type: none;
   
 }
 
+.footer-left ul a{
+  text-decoration: none;
+  flex-wrap: wrap;
+  line-height: 0.1;
+}
 
+.footer-center ul a{
+  text-decoration: none;
+  flex-wrap: wrap;
+  line-height: 0.1;
+}
+
+.footer-right ul a{
+  text-decoration: none;
+  flex-wrap: wrap;
+  line-height: 0.1;
+}
+
+
+.second-contain h3{
+  color: #f1f1f1;
+}
+
+.second-contain h3:hover{
+  transition: all 0.2s ease-in-out;
+  
+  color: goldenrod;
+}
 
 .second-contain a{
   color: #f1f1f1;
   font-weight: bold;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   margin: 0 12px;
-  text-decoration: underline;
+  text-decoration: none;
+  
   
 }
+
+.second-contain .reseau{
+  font-size: 30px;
+  margin: 18px 10px;
+}
+
+.second-contain .reseau:hover{
+  
+}
+
+
