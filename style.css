@@ -296,14 +296,46 @@ h1{
 
 /* ----Media Query Choix---- */
 
-@media screen and (max-width:767px){
+@media screen and (max-width:812px){
   #choix{
+    display: block;
     
-    width: 900px;
+    width: 100%;
   }
 
   .lieux{
-    float: bottom;
-    white-space: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
+
+@media screen and (max-width:382px){
+  #choix{
+    display: block;
+    width: 100%;
+  }
+
+  .lieux h3{
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .lieux p{
+    margin-left: 60%;
+    
+    padding-bottom: 15%;
+  }
+
+  .lieux img{
+    margin-left: 70%;
+  }
+
+  .btn-outline-choix{
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    margin-left: 60%;
+  }
+}
+
