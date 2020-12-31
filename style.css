@@ -246,8 +246,7 @@ h1{
   width: 80px;
   height: 80px;
   margin-bottom: 15px;
-  align-items: center;
-  justify-items: center;
+  
 }
 
 #img-choix1:hover{
@@ -294,3 +293,17 @@ h1{
   color: #f1f1f1;
 }
 /* ---Fin Animation Button */
+
+/* ----Media Query Choix---- */
+
+@media screen and (max-width:767px){
+  #choix{
+    
+    width: 900px;
+  }
+
+  .lieux{
+    float: bottom;
+    white-space: wrap;
+  }
+}
