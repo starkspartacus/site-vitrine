@@ -1,0 +1,21 @@
+/* Reset CSS */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  body{
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+
+  /*-----------Section évènements------------  */
+
+.evenement-grid{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: rgba(211, 215, 219, 0.384);
+    
+}
