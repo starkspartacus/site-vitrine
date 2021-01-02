@@ -459,6 +459,23 @@ h1{
   font-size: 35px;
 }
 
+@media screen and (max-width:1075px){
+  .footer-container-even{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    
+  }
+
+  .second-contain h3{
+   font-size: 20px;
+  }
+
+  .footer-left ul a{
+    line-height: 1.3;
+  }
+}
+
 
 
 

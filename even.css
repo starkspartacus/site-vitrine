@@ -59,14 +59,14 @@ section .accordion-body p{
 
 .first-contain{
   display: flex;
-  width: 50%;
+  width: 70%;
   margin-left: 2vw;
   
   
 }
 
 .second-contain{
-  width: 30%;
+  
   flex-direction: column;
 }
 
@@ -89,19 +89,19 @@ section .accordion-body p{
 .footer-left ul a{
   text-decoration: none;
   flex-wrap: wrap;
-  line-height: 0.1;
+  line-height: 1.1;
 }
 
 .footer-center ul a{
   text-decoration: none;
   flex-wrap: wrap;
-  line-height: 0.1;
+  line-height: 1.1;
 }
 
 .footer-right ul a{
   text-decoration: none;
   flex-wrap: wrap;
-  line-height: 0.1;
+  line-height: 1.1;
 }
 
 
@@ -152,4 +152,21 @@ section .accordion-body p{
   transition: all 0.2s ease-in-out;
   color: lightcoral;
   font-size: 35px;
+}
+
+@media screen and (max-width:1075px){
+  .footer-container-even{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    
+  }
+
+  .second-contain h3{
+   font-size: 20px;
+  }
+
+  .footer-left ul a{
+    line-height: 1.3;
+  }
 }
