@@ -1,8 +1,11 @@
 # Cache objects
 packer_cache/
+app.js
 
 # Crash log
 crash.log
 
 # For built boxes
 *.box
+
+
