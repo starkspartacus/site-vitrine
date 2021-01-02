@@ -116,6 +116,10 @@ h1{
   line-height: 1.3;
 }
 
+.acceuil a{
+  text-decoration: none;
+}
+
 .acceuil p:hover{
   transition: all ease-in-out;
   font-size: 35px;
