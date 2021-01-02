@@ -352,7 +352,11 @@ h1{
 }
 
 /* Section Card */
-
+#card .card{
+  margin: 30px 110px;
+  border: 1px solid ;
+  
+}
 
 
 #card h3{
@@ -360,6 +364,35 @@ h1{
   margin: 0 auto;
   margin-left: 40%;
 }
+
+/* ----------- Media section Card ---------- */
+
+@media screen and (max-width:1356px){
+ #card .card-group{
+   display: flex;
+   flex-direction: column;
+   
+ }
+ #card .card{
+  display: flex;
+  margin: 20px 35%;
+  
+}
+}
+
+@media screen and (max-width:778px){
+  #card .card-group{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #card .card{
+   display: flex;
+   margin: 20px 30%;
+   
+ }
+ }
+ 
 
 
 /* ----------- Footer ---------- */
