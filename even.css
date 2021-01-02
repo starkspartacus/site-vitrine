@@ -6,9 +6,12 @@
   
   }
   
-  body{
+  .page2{
     font-family: Roboto, Helvetica, sans-serif;
+    background: blanchedalmond;
   }
+
+ 
 
  
 
@@ -40,7 +43,6 @@ section .accordion-body p{
   display: flex;
   flex-wrap: wrap;
 }
-
 
 
 
