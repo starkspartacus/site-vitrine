@@ -36,6 +36,11 @@ section .btn-info{
   font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
+section .accordion-body p{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 
 
